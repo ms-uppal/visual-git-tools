@@ -6,3 +6,5 @@ Task 1
 This lab explores visual tools for version control.
 
 *Remote update: Added via GitHub Web interface.*
+
+Main review note.
