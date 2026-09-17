@@ -1,12 +1,11 @@
 File: checkout.py
 Line under investigation: return max(total - discount, 0)
-Commit ID: <full or short ID shown by SourceTree>
-Author: <author shown by SourceTree>
-Date: <date shown by SourceTree>
-Commit message: Prevent negative checkout totals
+Commit ID: <a827f75f>
+Author: <ms-uppal>
+Date: <2026-09-17>
+Commit message: Round final total to nearest integer.
 
 Interpretation:
-This commit last changed the current line. The diff changed an unrestricted
-(total - discount) result to max(total - discount, 0), which prevents the total
-from becoming negative. That change plausibly explains the corrected behavior
-for discounts larger than the total.
+Rounded the float to an integer.
+
+
