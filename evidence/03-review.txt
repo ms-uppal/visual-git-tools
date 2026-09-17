@@ -1,13 +1,10 @@
-Commit 1: Add tax calculation to checkout
+Commit 1: Add discount calculation functionality.
 Files: checkout.py
-Purpose: Adds tax behavior to the checkout program.
+Purpose: Add discount calculation functionality. 
 
-Commit 2: Document SourceTree lab note
+Commit 2: Update README with project specifications.
 Files: README.md
-Purpose: Adds documentation unrelated to the calculator implementation.
+Purpose: Update README with project specifications. 
 
 Why the changes were separated:
-Keeping the code change and documentation change in separate commits makes each
-commit easier to review, explain, revert, or undo without affecting the other
-purpose. It also prevents an unrelated README edit from being hidden inside a
-code-focused commit.
+separating commits (making them atomic) is a best practice (e.g., makes rollback easier, isolates bugs, keeps history readable).
