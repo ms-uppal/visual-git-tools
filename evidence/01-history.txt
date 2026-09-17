@@ -1,0 +1,12 @@
+Repository URL: https://github.com/ms-uppal/visual-git-tools
+Local branches: main, visual-tools
+Remote branches: origin/main, origin/visual-tools
+Initial/shared commit: <82ab3c0> <message>
+Feature commit 1: <cadfb82> Add checkout total calculator
+Feature commit 2: <3f46563> Round checkout totals to cents
+
+Graph explanation:
+The initial README commit is shared because both main and visual-tools descend from it.
+The two checkout.py commits are unique to visual-tools at this point. HEAD is on
+visual-tools and points to the newest feature commit, so visual-tools is the branch
+label at the tip of the feature work.

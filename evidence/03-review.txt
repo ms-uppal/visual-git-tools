@@ -1,0 +1,13 @@
+Commit 1: Add tax calculation to checkout
+Files: checkout.py
+Purpose: Adds tax behavior to the checkout program.
+
+Commit 2: Document SourceTree lab note
+Files: README.md
+Purpose: Adds documentation unrelated to the calculator implementation.
+
+Why the changes were separated:
+Keeping the code change and documentation change in separate commits makes each
+commit easier to review, explain, revert, or undo without affecting the other
+purpose. It also prevents an unrelated README edit from being hidden inside a
+code-focused commit.

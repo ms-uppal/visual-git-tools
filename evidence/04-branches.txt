@@ -1,0 +1,21 @@
+Before merge:
+Current branch: main
+Feature branch: visual-tools
+Feature branch published: Yes
+Screenshot: screenshots/04-branches-before-after.png
+
+Merge:
+SourceTree action: Merge visual-tools while main was checked out
+Git concept: Combines the feature branch history into main
+
+Remote update:
+GitHub action: Edited README.md directly on main and committed it
+SourceTree action: Fetch, then Pull
+Git concepts: Fetch downloaded remote history; Pull integrated the remote commit
+into local main.
+
+Final state:
+Current branch: main
+Push action: Sent local main to origin after evidence was added
+Working tree: Clean
+Feature commits visible in main: Yes

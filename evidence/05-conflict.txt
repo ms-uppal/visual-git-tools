@@ -1,0 +1,20 @@
+Conflicting file: README.md
+Main version: Main review note.
+Feature version: Feature review note.
+
+Final resolved content:
+Both Main review note. and Feature review note. remain under the
+Conflict review notes heading, with all Git conflict markers removed.
+
+Merge commit message: <message shown by SourceTree>
+Merge commit ID: <ID shown by SourceTree>
+
+Final verification:
+The merge is visible in SourceTree History, main was pushed to origin, and the
+working copy has no uncommitted changes.
+
+
+
+
+
+
